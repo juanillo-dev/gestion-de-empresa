@@ -1,0 +1,25 @@
+# Forzar LF en scripts Unix
+/mvnw text eol=lf
+*.sh text eol=lf
+
+# Forzar CRLF en scripts Windows
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Código fuente siempre en LF
+*.java text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.sql text eol=lf
+*.properties text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Evitar tocar binarios
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
