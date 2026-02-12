@@ -1,43 +1,63 @@
-# JL Proyectos & Servicios – Web corporativa
+🛠️ JL Proyectos & Servicios – Aplicación Web Full-Stack
 
-Aplicación web full-stack para una empresa de reformas y servicios técnicos.
-Proyecto orientado a simular un caso real de negocio.
+Aplicación web full-stack desarrollada como proyecto real para una empresa de reformas y servicios técnicos, con separación backend/frontend y funcionalidades completas.
 
-En entorno local, la web consume una API REST desarrollada en Spring Boot,
-mostrando servicios desde base de datos y un formulario de contacto funcional.
+🧱 Tecnologías
+Backend (Spring Boot)
 
-Para fines de demostración, el proyecto incluye una versión estática del
-frontend desplegada en GitHub Pages.
+Java 17
 
-## 🧱 Tecnologías
+Spring Boot
 
-### Backend
-- Java 17
-- Spring Boot
-- Spring Data JPA
-- MySQL
-- API REST
+Spring Data JPA
 
-### Frontend
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Fetch API
+MySQL
 
-## 🚀 Funcionalidades
-- Listado dinámico de servicios desde base de datos (modo local)
-- Consumo de API REST desde frontend
-- Formulario de contacto conectado al backend (modo local)
-- Modo demo estático para visualización pública
-- Separación clara frontend / backend
-- Proyecto orientado a producción
+API REST
 
-## ▶️ Ejecución local
-```bash
+Frontend
+
+HTML5
+
+CSS3
+
+JavaScript (Vanilla)
+
+Fetch API
+
+🚀 Funcionalidades
+
+Gestión y listado dinámico de servicios desde la base de datos
+
+Consumo de API REST desde el frontend
+
+Formulario de contacto funcional conectado al backend
+
+Versión demo estática disponible en GitHub Pages
+
+Diseño responsive
+
+Separación clara entre frontend y backend
+
+📦 Cómo ejecutar localmente
+
+Clonar repo
+
+Configurar base de datos MySQL
+
+Ejecutar backend con Spring Boot:
+
 ./mvnw spring-boot:run
 
----
+🌐 Demo pública
 
-👤 **Autor**  
-Juan Leiva  
-Desarrollador backend / full-stack junior
+Este proyecto también incluye una versión estática desplegada en GitHub Pages para visualización sin backend.
+
+👨‍💻 Autor
+
+Juan Leiva
+Desarrollador Web FullStack Junior | Java / Spring Boot / HTML / CSS / JS
+
+📍 Enlace de GitHub
+
+https://github.com/juanillo-dev/gestion-de-empresa
